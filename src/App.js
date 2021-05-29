@@ -31,7 +31,7 @@ function Todoapp(){
     <>
       <div className='container'>
         <div className='wraper'>
-          <h1 className='heading'>Todo app</h1>
+          <h1 className='heading'>Todo App</h1>
           <input type='text' placeholder='Enter items' onChange={change} value={value} className='todoinput' />
           <button className='submit' title='add items' onClick={submit}>+</button>
           <p className='errorMessage'>{error}</p>
