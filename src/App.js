@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './App.css';
 
-function App() {
+function Todoapp(){
   const [itemsList, setItemList] = useState([]) //todo list items
   const [value, setValue] = useState('')   // todo item value
   const [error, setError] = useState('')  // set error  for todo input
@@ -54,4 +54,4 @@ function App() {
   );
 }
 
-export default App;
+export default Todoapp;
